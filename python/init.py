@@ -4,9 +4,6 @@ import datetime
 import os
 import smtplib
 from email.mime.text import MIMEText
-from PyPDF2 import PdfReader
-from docx import Document
-from openai import OpenAI
 
 # ---------------- CONFIG ----------------
 DB = "licenses.db"
